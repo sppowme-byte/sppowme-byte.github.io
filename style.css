@@ -34,3 +34,4 @@ video.own{aspect-ratio:16/9;width:100%;display:block;background:#000;object-fit:
 .card .meta{font-size:14px;color:#A8A399}
 .card[hidden]{display:none}
 footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid #2A2926;padding-top:28px;padding-bottom:44px;font-size:13px;color:#8F8A80}
+dialog::backdrop{background:rgba(0,0,0,.7)} button.pill{border:0;font:inherit;font-size:17px;font-weight:500;cursor:pointer} button.pill.ghost{border:1px solid #4A4740;font-size:15px}

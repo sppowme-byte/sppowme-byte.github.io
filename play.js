@@ -6,3 +6,7 @@ document.querySelectorAll('.tabs button').forEach(function (t) {
     document.querySelectorAll('.card').forEach(function (k) { k.hidden = c !== '전체' && k.dataset.cat !== c; });
   });
 });
+// 의뢰하기 → 선택 창
+document.querySelectorAll('[data-open-ask]').forEach(function (b) {
+  b.addEventListener('click', function () { var d = document.getElementById('ask'); if (d && d.showModal) d.showModal(); });
+});
